@@ -42,13 +42,36 @@ from snippets import views_rest_comClass
 
 urlpatterns5 = format_suffix_patterns([
     path('', views_rest_comClass.api_root),
-    path('snippets/', views_rest_comClass.SnippetList.as_view(), name='snippet-list'),  # 调用类方法 as_view()
-    path('snippets/<int:pk>', views_rest_comClass.SnippetDetail.as_view()),
-    path("users/", views_rest_comClass.UserList.as_view(), name='user-list'),
-    path("users/<int:pk>", views_rest_comClass.UserInstance.as_view()),
-    path("snippets/<int:pk>/highlight", views_rest_comClass.SnippetHighlight.as_view())
+    path('snippets/', views_rest_comClass.SnippetList.as_view(),
+         name='snippet-list'),  # 调用类方法 as_view()
+    path('snippets/<int:pk>', views_rest_comClass.SnippetDetail.as_view(),
+         name='snippet-detail'),
+    path("users/", views_rest_comClass.UserList.as_view(),
+         name='user-list'),
+    path("users/<int:pk>", views_rest_comClass.UserInstance.as_view(),
+         name='user-list'),
+    path("snippets/<int:pk>/highlight", views_rest_comClass.SnippetHighlight.as_view(),
+         name='snippet-list')
+])
+
+# 版本final
+from snippets import views_rest_final
+
+urlpatterns6 = format_suffix_patterns([
+    path('', views_rest_final.api_root),
+    path('snippets/', views_rest_final.SnippetList.as_view(),
+         name='snippet-list'),  # 调用类方法 as_view()
+    path('snippets/<int:pk>', views_rest_final.SnippetDetail.as_view(),
+         name='snippet-detail'),
+    path("users/", views_rest_final.UserList.as_view(),
+         name='user-list'),
+    path("users/<int:pk>", views_rest_final.UserInstance.as_view(),
+         name='user-detail'),
+    path("snippets/<int:pk>/highlight", views_rest_final.SnippetHighlight.as_view(),
+         name='snippet-highlight')
 ])
 
 # 源码： 从该模块中读取 urlpatterns 变量
 # urlpatterns = urlpatterns1 + urlpatterns2 + urlpatterns3 + urlpatterns4 + urlpatterns5
-urlpatterns = urlpatterns5
+# urlpatterns = urlpatterns5
+urlpatterns = urlpatterns6
