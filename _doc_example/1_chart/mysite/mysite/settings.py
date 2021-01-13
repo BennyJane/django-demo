@@ -31,12 +31,12 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    'django.contrib.admin', # 管理元系统
+    'django.contrib.auth',  # 认证系统
+    'django.contrib.contenttypes',  # 内容类型框架
+    'django.contrib.sessions',  # 会话矿建
+    'django.contrib.messages',  #  消息框架
+    'django.contrib.staticfiles',   # 管理静态文件的框架
 ]
 
 MIDDLEWARE = [
@@ -77,6 +77,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    },
+    'mysql':{
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME':
     }
 }
 
