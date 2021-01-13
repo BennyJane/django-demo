@@ -20,16 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84ea1e4e-83bc-47ca-a445-f04548b7395c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tutorial/note.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial/snippets/views_rest_viewSet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/snippets/serializers_on_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/snippets/serializers_on_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial/snippets/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial/snippets/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_doc_example/1_chart/mysite/polls/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_doc_example/1_chart/note.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_doc_example/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,15 +52,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tutorial/snippets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_doc_example/1_chart" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\BennyOfProjects\django-demo\tutorial\snippets" />
+      <recent name="F:\BennyOfProjects\django-demo\_doc_example\1_chart" />
       <recent name="F:\BennyOfProjects\django-demo" />
+      <recent name="F:\BennyOfProjects\django-demo\tutorial\snippets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,12 +73,16 @@
       <option name="presentableId" value="Default" />
       <updated>1609082567155</updated>
       <workItem from="1609082568254" duration="717000" />
-      <workItem from="1609085145952" duration="1201000" />
+      <workItem from="1609085145952" duration="1263000" />
+      <workItem from="1610549684806" duration="1737000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
