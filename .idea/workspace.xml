@@ -22,7 +22,9 @@
     <list default="true" id="84ea1e4e-83bc-47ca-a445-f04548b7395c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_doc_example/1_chart/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/_doc_example/1_chart/mysite/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_doc_example/1_chart/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/_doc_example/1_chart/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_doc_example/1_chart/mysite/polls/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/_doc_example/1_chart/mysite/polls/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_doc_example/1_chart/mysite/polls/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/_doc_example/1_chart/mysite/polls/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_doc_example/1_chart/note.md" beforeDir="false" afterPath="$PROJECT_DIR$/_doc_example/1_chart/note.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +78,8 @@
       <updated>1609082567155</updated>
       <workItem from="1609082568254" duration="717000" />
       <workItem from="1609085145952" duration="1263000" />
-      <workItem from="1610549684806" duration="2393000" />
+      <workItem from="1610549684806" duration="2430000" />
+      <workItem from="1610588636095" duration="4072000" />
     </task>
     <servers />
   </component>
